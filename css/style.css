@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  background-color: #ffeeee;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #ffcccc;
+  padding: 15px;
+  margin: -10px;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+/* MENU NAVIGAZIONE */
+
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffbbbb;
+}
+
+li.nav {
+  float: left;
+}
+
+li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.nav a:hover {
+  background-color: #ff7777;
+}
+
+div.navigation {
+  box-shadow: 0 4px 8px 0 rgba(#000000, 0.2);
+}
+
+/* CARTE
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 250px;
+  border-radius: 5px;
+  align-content: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* CARTA PROVA */
+.carta {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.container {
+  text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #f1f1f1;
+  padding: -10px;
+  text-align: center;
+}
