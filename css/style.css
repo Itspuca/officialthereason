@@ -18,6 +18,12 @@ body {
   font-size: 1.5em;
 }
 
+.titolo1 {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
 /* MENU NAVIGAZIONE */
 
 ul {
