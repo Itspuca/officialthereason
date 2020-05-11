@@ -66,6 +66,8 @@ a.active,a:hover {
 
 .toggle-button {
   display: none;
+  padding-left: 25px;
+  padding-right: 25px;
   color: gray;
   float: right;
   line-height: 95px;
