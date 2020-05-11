@@ -41,6 +41,10 @@
 }
 
 @media only screen and (max-width: 620px) {
+  .carta-cover {
+    border-radius: 15px;
+  }
+
   .bio {
     font-family: 'Muli', sans-serif;
     margin: auto;
