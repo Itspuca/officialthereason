@@ -2,73 +2,53 @@
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Andrea Della Puca">
     <meta name="description" content="Sito ufficiale The Reason">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>The Reason</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>The Reason - Prova</title>
   </head>
   <body>
     <header>
-      <div class="header">
-        <a href="index.html" style="text-decoration: none;"><img src="img/titolo.png" alt="The Reason" class="titolo1" style="max-height: 120px;"></a>
-      </div>
-      <div class="navigation">
-        <ul class="mainav">
-          <li class="nav"> <a href="index.html">Home</a> </li>
-          <li class="nav"> <a href="dir1/noi.html">Noi</a> </li>
-          <li class="nav"> <a href="dir1/store.html">Negozio</a> </li>
+      <nav class="nav">
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="toggle-button">
+          <i class='fas fa-bars' style='font-size:24px'></i>
+        </label>
+        <a href="index.html"><img src="img/titolo1.png" class="logo1"></a>
+			  <a href="index.html"><img src="img/titolo2.png" class="logo2"></a>
+        <ul class="menu">
+          <li class="menu-item"> <a href="index.html">Home</a> </li>
+          <li class="menu-item"> <a href="dir1/noi.html">Noi</a> </li>
+          <li class="menu-item"> <a href="dir1/negozio.html">Negozio</a> </li>
         </ul>
-      </div>
+      </nav>
     </header>
-<br>
-<br>
-<br>
-    <main>
-      <section>
-        <!--<div class="row">
-          // CARTA COVER //
-          <div class="card">
-            <img src="img/logo.png" alt="Avatar" style="width:100%">
-            <div class="container">
-              <h4><b>Cover</b></h4>
-            </div>
-          </div>
-          // CARTA MAGLIETTE //
-          <div class="card">
-            <img src="img/maglia.png" alt="Avatar" style="width:100%">
-            <div class="container">
-              <h4><b>Cover</b></h4>
-            </div>
-          </div>
-        </div> -->
+    <main class="pagina">
+      <section class="sezione1">
+        <a href="https://www.instagram.com/tv/B_pgzjpHGGu/"; target="_blank">
+          <img src="img/cover.png" alt="Cover Starlight" class="carta-cover">
+        </a>
       </section>
-      <section>
-        <div class="carta">
-          <img src="img/logo.png" alt="Cover" style="width:300px">
-          <div class="container">
-              <h3>Ascolta la cover</h3>
+      <section class="sezione2">
+        <div class="bio">
+          <div class="titolo-bio">
+            <h2>I The Reason</h2>
+            <div class="bio-p">
+              <p>Based in Milan.</p>
+            </div>
           </div>
-        </div>
-        <div class="carta">
-          <img src="img/maglia1.png" alt="Maglietta" style="width:300px">
-          <div class="container">
-              <h3>Acquista le nostre magliette</h3>
+          <div class="membri">
+
           </div>
         </div>
       </section>
     </main>
-<br>
     <footer>
-      <div class="footer">
-        <nav>
-          <ul>
-            <a href="https://www.instagram.com/officialthereason/"; target="_blank"><li>Instagram</li></a>
-            <a href="https://www.youtube.com/channel/UCUTtCpi8V6A8oGHYHLGUUgg"; target="_blank"><li>Youtube</li></a>
-            <a href="https://www.facebook.com/officialthereason/"><li>Facebook</li></a>
-          </ul>
-        </nav>
-      </div>
+
     </footer>
   </body>
 </html>

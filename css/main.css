@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: #fef0f0;
+}
+
+.nav {
+  background: #ffdada;
+  height: 90px;
+  width: 100%;
+}
+
+
+/* LOGHI */
+
+.logo1 {
+  padding: 10px;
+	max-height: 90px;
+	max-width: 100%;
+  height: auto;
+  width: auto;
+	float: left;
+}
+
+.logo2 {
+  padding: 10px;
+	max-height: 90px;
+	max-width: 100%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	display: none;
+
+}
+
+/* NAV */
+
+.menu {
+  float: right;
+  margin-right: 20px
+}
+
+.menu-item {
+  display: inline;
+  line-height: 90px;
+  margin: 0 5px;
+}
+
+.menu-item a {
+  color: gray;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+a.active,a:hover {
+  background: #ffbebe;
+  transition: .5s;
+}
+
+.toggle-button {
+  display: none;
+  color: gray;
+  float: right;
+  line-height: 95px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+#toggle {
+  display: none
+}
+
+@media only screen and (max-width: 620px) {
+
+  .logo1 {
+    display: none;
+  }
+
+  .logo2 {
+    display: block;
+  }
+
+  .toggle-button {
+    display: block;
+  }
+
+  .menu-item {
+  display: block;
+  text-transform: uppercase;
+  }
+
+  .menu-item a {
+    color: white;
+
+  }
+
+  a.active,a:hover {
+    background: none;
+    color: #c76363;
+  }
+
+  .menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #9c6565;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  #toggle:checked ~ .menu {
+    left: 0;
+  }
+}
