@@ -62,6 +62,7 @@
 .cont {
   padding: 2px 15px;
   font-size: 20px;
+  text-align: center;
 }
 
 
@@ -112,6 +113,7 @@
   .cont {
     padding: 2px 15px;
     font-size: 10px;
+    text-align: center;
   }
 }
 
@@ -127,5 +129,6 @@
   .cont {
     padding: 2px 15px;
     font-size: 12px;
+    text-align: center;
   }
 }
