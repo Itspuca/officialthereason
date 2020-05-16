@@ -9,7 +9,7 @@
 
 body {
   font-family: Arial;
-  background: #fef0f0;
+  background: #ffdada;
 }
 
 .nav {
@@ -74,6 +74,15 @@ a.active,a:hover {
   line-height: 95px;
   margin-right: 40px;
   cursor: pointer;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social-item {
+  margin: 10px;
 }
 
 #toggle {
