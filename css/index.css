@@ -28,17 +28,10 @@
   background: #ffdada;
 }
 
-.bio {
+.titolo-bio {
   font-family: 'Muli', sans-serif;
-  margin: auto;
-  padding: 10px;
+  font-size: 3em;
   text-align: center;
-  font-size: 4em;
-}
-
-.bio-p {
-  font-size: 0.4em;
-  font-family: 'Muli', sans-serif;
 }
 
 /* CARTE */
@@ -85,17 +78,10 @@
     margin-bottom: 20px;
   }
 
-  .bio {
+  .titolo-bio {
     font-family: 'Muli', sans-serif;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
     font-size: 2em;
-  }
-
-  .bio-p {
-    font-size: 0.4em;
-    font-family: 'Muli', sans-serif;
+    text-align: center;
   }
 
   /* CARTE mobile */
@@ -126,6 +112,14 @@
   .cont {
     padding: 2px 15px;
     font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .titolo-bio {
+    font-family: 'Muli', sans-serif;
+    font-size: 1.7em;
+    text-align: center;
   }
 }
 
