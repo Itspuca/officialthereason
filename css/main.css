@@ -14,7 +14,7 @@ body {
 
 .nav {
   background: #ffdada;
-  height: 90px;
+  height: 115px;
   width: 100%;
 }
 
@@ -22,8 +22,9 @@ body {
 /* LOGHI */
 
 .logo1 {
-  padding: 10px;
-	max-height: 90px;
+  padding: 5px;
+  margin: 7px;
+	max-height: 100px;
 	max-width: 100%;
   height: auto;
   width: auto;
@@ -50,7 +51,7 @@ body {
 
 .menu-item {
   display: inline;
-  line-height: 90px;
+  line-height: 115px;
   margin: 0 5px;
 }
 
