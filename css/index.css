@@ -65,7 +65,15 @@
   text-align: center;
 }
 
+.easter-egg {
+  width: 10px;
+  height: 10px;
+}
 
+.easter-egg a {
+  text-decoration: none;
+  color: #ffdada;
+}
 
 @media only screen and (max-width: 620px) {
 
