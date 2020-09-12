@@ -4,8 +4,195 @@ h1 {
   text-align: center;
 }
 
-@media only screen and (max-width: 620px) {
-  h1 {
-    font-size: 100px;
+footer {
+  padding: 5px;
+}
+
+.sezione1 {
+  background: rgb(255, 255, 255);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.maglietta1 {
+  font-family: 'Muli', sans-serif;
+  height: 65vh;
+  width: 95%;
+  border-radius: 20px;
+  background-color: #ffe2e2;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+
+}
+
+.maglietta2 {
+  font-family: 'Muli', sans-serif;
+  height: 65vh;
+  width: 95%;
+  border-radius: 20px;
+  background-color: #ffe2e2;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.maglietta1 img {
+    height: 65vh;
+    width: auto;
+    float: left;
+    display: block;
+}
+
+.maglietta1 h3 {
+  text-align: center;
+  font-size: 3vw;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.maglietta1 p {
+  text-align: center;
+  font-size: 1.5vw;
+  position: relative;
+}
+
+.maglietta2 h3 {
+  text-align: center;
+  font-size: 3vw;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.maglietta2 p {
+  text-align: center;
+  font-size: 1.5vw;
+  position: relative;
+}
+
+.maglietta2 img {
+  height: 65vh;
+  width: auto;
+  float: right;
+  display: block;
+}
+
+.button {
+  vertical-align: middle;
+  border: 2px solid;
+  border-color: grey;
+  border-radius: 5px;
+  color: black;
+  padding: 15px 32px;
+  margin: auto;
+  margin-top: 150px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1em;
+  font-family: Muli, sans-serif;
+  cursor: pointer;
+}
+/* --- */
+
+.maglietta11 {
+  display: none;
+}
+
+.maglietta22 {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .maglietta1 {
+    display: none;
   }
+
+  .maglietta2 {
+    display: none;
+  }
+
+/* --- */
+
+  .maglietta11 {
+    display: block;
+    font-family: 'Muli', sans-serif;
+    height: 40vh;
+    width: 95%;
+    border-radius: 10px;
+    background-color: #ffe2e2;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .maglietta11 img {
+    height: 30vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .maglietta11 h3 {
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .maglietta11 p {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  .maglietta22 {
+    display: block;
+    font-family: 'Muli', sans-serif;
+    height: 40vh;
+    width: 95%;
+    border-radius: 10px;
+    background-color: #ffe2e2;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .maglietta22 img {
+    height: 30vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .maglietta22 h3 {
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .maglietta22 p {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 }
